@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(76, 160, 160);
+}
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+input[type="color"] {
+  width: 100px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
